@@ -45,7 +45,7 @@ body {
     .header--company_logo span {
       font-size: 4rem;
       font-weight: 900;
-      color: #5555ca; }
+      color: #8c8cf8; }
   .header--client_logo {
     animation-name: MoveRight;
     animation-duration: 2s; }
@@ -70,7 +70,7 @@ body {
   font-family: "lato", sans-serif;
   width: 70vw;
   height: 80vh;
-  background-color: #f0faff;
+  background-color: #f8f8f8;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
@@ -110,6 +110,7 @@ body {
   height: 10rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   border-top: solid 0.5px;
@@ -119,16 +120,18 @@ body {
   .footer hr {
     background-color: #9292ff;
     color: blue;
-    width: 80%;
-    margin-bottom: 2rem; }
+    width: 80%; }
   .footer-name {
     color: #8c8cf8;
     font-size: 1.5rem;
     letter-spacing: 0.3rem;
     font-stretch: expanded;
-    margin-bottom: 0.8rem; }
+    font-weight: 600;
+    padding-bottom: 1rem; }
   .footer-copyright {
-    color: #8c8cf8; }
+    color: #8c8cf8;
+    letter-spacing: 0.1rem;
+    font-stretch: expanded; }
 
 .btn {
   display: inline-block;
